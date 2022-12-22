@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+    {{  form_start(form)  }}
+    {{  form_row(form.nom)  }}
+    {{  form_row(form.numeroVoie)  }}
+    {{  form_row(form.nomVoie)  }}
+    {{  form_row(form.codePostal)  }}
+    {{  form_row(form.ville)  }}
+    {{  form_row(form.dateDeCreation)  }}
+    {{  form_row(form.actions)  }}
+    {{  form_row(form.enregistrer)  }}
+    {{  form_end(form)  }}
